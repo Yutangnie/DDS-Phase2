@@ -47,6 +47,7 @@ where ST_Contains(point._c0,'-155.940114,19.081331,-155.618917,19.5307')
 ```
 
 Range join query:
+l
 ```
 select * 
 from rectangle,point 
@@ -132,7 +133,7 @@ November 2nd, 2017 11:59 pm
 2. Submit your project source code onto Blackboard in a compress zip file of "cse512-phase2-GROUPNAME" for plagiarism detection. Note that: you need to make sure your code can compile and package by entering ```sbt clean assembly```. We will run the compiled package on our cluster directly using "spark-submit".
 3. If your code cannot compile and package, you will not receive any points.
 
-## How to debug your code in IDE
+sbt ## How to debug your code in IDE
 
 If you are using the Scala template
 
